@@ -1,0 +1,16 @@
+name: Build IPA T2GO
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build unsigned IPA
+        run: bash build.sh
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: T2GO-ipa
+          path: T2GO.ipa
