@@ -1,0 +1,35 @@
+APP T2GO CHO IPHONE - CACH LAY FILE IPA VA CAI VAO MAY
+======================================================
+
+App nay la ban boc trang t2liveai.io.vn giong het app Android:
+ dang nhap Google o lai trong app, goi thoai/video dung camera + micro,
+ vuot trai/phai de quay lai, chon anh/video dang bai binh thuong.
+
+DONG BO DU LIEU: app khong chua du lieu rieng - moi thu (tai khoan, bai
+ dang, tin nhan, ban be, xu, trang trai) nam tren may chu t2liveai.io.vn,
+ nen dang nhap cung 1 tai khoan tren web, Android hay iPhone thi thay giong
+ het nhau, sua ben nay ben kia cap nhat ngay. Dang nhap duoc giu lai sau
+ moi lan mo app (khong phai dang nhap lai). Mat mang thi app hien trang
+ bao loi co nut Thu lai; tep tai ve trong trang se tai xuong va mo chia se.
+
+BUOC 1 - DUNG FILE IPA (khong can may Mac, mien phi):
+ 1. Tao tai khoan GitHub (github.com) neu chua co - mien phi.
+ 2. Tao repo moi (New repository), tai het cac file trong thu muc nay len
+    (ke ca thu muc .github - tren web GitHub bam "uploading an existing file"
+     roi keo tha toan bo; neu kho day .github len thi tao file truc tiep:
+     Add file > Create new file, go duong dan .github/workflows/build-ipa.yml
+     roi dan noi dung tuong ung).
+ 3. Vao tab Actions cua repo: ban dung chay tu dong (may Mac cua GitHub dung
+    khoang 3-5 phut). Xong bam vao ban dung > tai file T2GO-ipa ve (la file
+    T2GO.ipa ben trong).
+
+BUOC 2 - CAI VAO IPHONE:
+ - May iOS 16 (16.0 - 16.6.1): cai TrollStore truoc (lien he Muse de lay
+   cach cai dung voi dung phien ban), mo TrollStore > dau + > chon T2GO.ipa
+   > Install. Xong la dung vinh vien, khong het han.
+ - May iOS 18: cai SideStore (ghep noi may tinh 1 lan dau), mo SideStore >
+   dau + > chon T2GO.ipa > cai. SideStore tu gia han nen app song lien tuc,
+   gia han hoan toan mien phi.
+
+Luu y: file IPA nay chua ky san (unsigned) - TrollStore/SideStore se tu ky
+bang tai khoan cua ban khi cai, nhu vay moi dung duoc va khong ton tien.
